@@ -8,7 +8,7 @@ pipeline{
 		stage('Inicio'){
 			steps{
 				sh 'echo "HOLA"'
-				sh 'echo "ESTOY EN RAMA MASTER"'
+				sh 'echo "ESTOY EN RAMA DEVELOP"'
 			}
 
 		}
