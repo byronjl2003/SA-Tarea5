@@ -9,6 +9,7 @@ pipeline{
 			steps{
 				sh 'echo "HOLA"'
 				sh 'echo "ESTOY EN RAMA DEVELOP"'
+				sh 'comandonoinstalado a'
 			}
 
 		}
