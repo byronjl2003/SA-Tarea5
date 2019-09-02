@@ -17,7 +17,7 @@ pipeline{
 		stage('build'){
 			steps{
 				sh 'docker --version'
-				sh './build-script.sh'
+				sh 'docker build -t byronjl2003/sa-esb:0.0.0  ./ESB'
 			}
 		}
 
