@@ -11,6 +11,10 @@ pipeline{
 				sh 'echo "ESTOY EN RAMA MASTER"'
 			}
 
+
+		}
+		stage('build'){
+			sh './build-script.sh'
 		}
 
 
