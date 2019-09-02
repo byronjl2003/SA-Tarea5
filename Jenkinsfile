@@ -10,7 +10,7 @@ pipeline{
 				sh 'echo "HOLA"'
 				sh 'echo "ESTOY EN RAMA MASTER"'
 				sh 'echo $USER'
-				sh 'docker run hello-world'
+				sh './build-script.sh'
 			}
 
 
