@@ -11,5 +11,9 @@ do
     docker build -t byronjl2003/sa-cliente:${line}  ./Cliente
     docker build -t byronjl2003/sa-piloto:${line}  ./Piloto
     cat ~/passdocker.txt | docker login --username byronjl2003 --password-stdin
+    docker push byronjl2003/sa-esb:${line}
+    docker push byronjl2003/sa-ubicacion:${line}
+    docker push byronjl2003/sa-cliente:${line}
+    docker push byronjl2003/sa-piloto:${line} 
 
 done < "$input"
