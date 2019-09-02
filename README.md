@@ -23,5 +23,5 @@ Instrucciones:
 ### Se adjunta imagenes del resultado de un pull request fallido.
 [diagrama][logo]
 
-[logo]: https://github.com/byronjl2003/SA_Tarea2/blob/master/diagramas/solicitud-servicio.png?raw=true "solicitud de ube"
+[logo]: https://raw.githubusercontent.com/byronjl2003/SA-Tarea5/Develop/github.com_byronjl2003_SA-Tarea5_pull_4.png "pull request"
 
