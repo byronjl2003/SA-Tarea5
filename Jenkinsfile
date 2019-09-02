@@ -9,7 +9,7 @@ pipeline{
 			steps{
 				sh 'echo "HOLA"'
 				sh 'echo "ESTOY EN RAMA MASTER"'
-				sh 'docker --version'
+				sh 'docker run hello-world'
 			}
 
 
