@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "HOLA"
-input="/home/bj/repos/SA-Tarea5/version"
+input="version"
 
 while IFS= read -r line
 do
