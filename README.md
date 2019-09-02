@@ -1,5 +1,5 @@
-# Documentacion Tarea 5-----------
-# Softaware avanzado - USAC------------------
+# Documentacion Tarea 5
+# Softaware avanzado - USAC
 ### Byron Jose Lopez Herrera
 ### 201222626
 ### REPO: https://github.com/byronjl2003/SA_Tarea5
