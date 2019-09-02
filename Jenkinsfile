@@ -9,8 +9,7 @@ pipeline{
 			steps{
 				sh 'echo "HOLA"'
 				sh 'echo "ESTOY EN RAMA MASTER"'
-				sh 'echo $USER'
-				sh './build-script.sh'
+				
 			}
 
 
@@ -18,7 +17,7 @@ pipeline{
 		stage('build'){
 			steps{
 				sh 'docker --version'
-				sh 'docker build -t byronjl2003/sa-esb:0.0.0  ./ESB'
+				sh './build-script.sh'
 			}
 		}
 
