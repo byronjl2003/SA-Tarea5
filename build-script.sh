@@ -1,10 +1,11 @@
 #!/bin/bash
 echo "HOLA"
-input="/home/bj/repos/SA-Tarea5/version"
-
+input="version"
+docker --version
 while IFS= read -r line
 do
     #VAMOS A TAGUEAR CONSTRUIR LAS IMAGES Y A TAGUEARLAS
+    
     echo "$line"
     docker build -t byronjl2003/sa-esb:${line}  ./ESB
     docker build -t byronjl2003/sa-ubicacion:${line}  ./Ubicacion
@@ -15,5 +16,5 @@ do
     docker push byronjl2003/sa-ubicacion:${line}
     docker push byronjl2003/sa-cliente:${line}
     docker push byronjl2003/sa-piloto:${line} 
-
+    echo "FIN BUILD-SCRIPT"
 done < "$input"
