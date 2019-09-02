@@ -30,4 +30,15 @@ pipeline{
             		waitForQualityGate abortPipeline: true
         		}		
 				
+			}
+		}
 
+
+    }
+    post{
+	    always{
+	    	sh 'echo "FIN"'
+	    }
+	
+    }
+}
