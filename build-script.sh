@@ -15,5 +15,5 @@ do
     docker push byronjl2003/sa-ubicacion:${line}
     docker push byronjl2003/sa-cliente:${line}
     docker push byronjl2003/sa-piloto:${line} 
-
+    echo "FIN BUILD-SCRIPT"
 done < "$input"
