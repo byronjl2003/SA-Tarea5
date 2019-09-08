@@ -23,5 +23,8 @@
   "homepage": "https://github.com/byronjl2003/SA_Tarea2#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }
