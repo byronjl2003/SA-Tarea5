@@ -1,5 +1,7 @@
-# Documentacion Tarea 5-----------
-# Softaware avanzado - USAC------------------
+
+# Documentacion Tarea 5
+# Softaware avanzado - USAC
+
 ### Byron Jose Lopez Herrera
 ### 201222626
 ### REPO: https://github.com/byronjl2003/SA_Tarea5
@@ -23,5 +25,5 @@ Instrucciones:
 ### Se adjunta imagenes del resultado de un pull request fallido.
 [diagrama][logo]
 
-[logo]: https://github.com/byronjl2003/SA_Tarea2/blob/master/diagramas/solicitud-servicio.png?raw=true "solicitud de ube"
+[logo]: https://raw.githubusercontent.com/byronjl2003/SA-Tarea5/Develop/github.com_byronjl2003_SA-Tarea5_pull_4.png "pull request"
 
