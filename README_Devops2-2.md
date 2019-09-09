@@ -7,7 +7,8 @@
 
 ## Instrucciones Generales
 - Archivo para generar el artefacto: gulpfile.js
--Sitio de Netlify: https://app.netlify.com/sites/sa-201222626/deploys
+
+- Sitio de Netlify: https://app.netlify.com/sites/sa-201222626/deploys
 
 - Descarga de artefacto
 ![artefacto][logo]
