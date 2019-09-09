@@ -12,4 +12,4 @@
 - Descarga de artefacto
 ![artefacto][logo]
 
-[logo]: https://github.com/byronjl2003/SA_Tarea2/blob/master/diagramas/solicitud-servicio.png?raw=true "artefacto"
+[logo]: https://raw.githubusercontent.com/byronjl2003/SA-Tarea5/master/imagenes/artefacto-publicado.png "artefacto"
